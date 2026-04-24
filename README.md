@@ -2,16 +2,25 @@
 
 DataPulse is a data reliability and issue analysis tool that evaluates CSV datasets and determines whether they are suitable for analytics or machine learning.
 
+
 ⚙️ What It Does
 
 Profiles dataset structure (rows, columns, summaries)
+
 Detects key data issues:
+
 Missing values
+
 Duplicate rows
+
 Constant & high-cardinality columns
+
 Identifies outliers using statistical methods (IQR)
+
 Detects anomalies via clustering (K-Means)
+
 Generates a reliability score (0–100)
+
 Presents results through a clean, interactive dashboard
 
 
@@ -30,6 +39,7 @@ Pandas
 Scikit-learn
 
 Streamlit
+
 
 📊 Output
 
